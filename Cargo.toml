@@ -1,0 +1,15 @@
+[package]
+name = "hello_harvey"
+version = "0.1.0"
+authors = ["Stefan Hertenberger <stefan@alarum.de>"]
+edition = "2018"
+
+# [profile.dev]
+# panic = "unwind"
+
+# [profile.release]
+# panic = "unwind"
+
+[dependencies]
+futures = "0.3"
+plan9sys = { path = "../plan9sys" }
